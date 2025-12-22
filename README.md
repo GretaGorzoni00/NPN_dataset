@@ -94,8 +94,8 @@ Distractor dataset contains 1751 occurrences, each  and annotated with the follo
 - preposition: the preposition found in the pattern, with possible values `a` (1565 token), `su` (186 token);
 - noun: the lemmatised form of the noun that appers reduplicated in the pattern;
 - number_of_noun: tthe number value of the noun that appears in the pattern, with possible values `singular` (1600 token), `plural`(1750 token), `singular/plural` (8 token), `X` (108 token);
-- Type of distractor pattern, with possible values `N_extended` (35 token), `NsuNgiù` (392 token), `juxtaposition/contact` (13 token), `NumPNum` (100 token), `PNPN` (1442 token), `proper_name_inglobation` (31 token), `thematic_target` (50 token), `verbal` (80 token):
-- Other_cxv: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes` (1535 token), `no` (216 token)
+- type of distractor pattern, with possible values `N_extended` (35 token), `NsuNgiù` (392 token), `juxtaposition/contact` (13 token), `NumPNum` (100 token), `PNPN` (1442 token), `proper_name_inglobation` (31 token), `thematic_target` (50 token), `verbal` (80 token):
+- proper_cxv: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes` (1535 token), `no` (216 token)
 
 
 ## References
