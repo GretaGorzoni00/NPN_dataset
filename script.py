@@ -53,7 +53,7 @@ while g < len(gorzoni_list):
     col = gorzoni_list[g][0].split(";")
     gorzoni_costr.append(col[0])
     g+=1
-    
+
 while m < len(lista_masini):
 
     masini_costr.append(lista_masini[m][0])
@@ -95,11 +95,10 @@ while g < len(gorzoni_list) and m < len(lista_masini):
     g+=1
     
     
-print(len(nuovo_dataset))
+#print(len(nuovo_dataset))
 
 
 with open("dataset_finale.csv", "w", encoding="utf-8") as f:
-    # header (adatta i nomi se vuoi)
     f.write("construction;preposition;lemma;pos;meaning;freq_masini;freq_gorzoni\n")
     
     for row in nuovo_dataset:
