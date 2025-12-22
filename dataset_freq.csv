@@ -28,9 +28,9 @@ battute su battute;su;battuta;pl;nominal;greater_plurality/accumulation;1;1
 bellezza su bellezza;su;bellezza;sg;nominal;greater_plurality/accumulation;1;1
 beni su beni;su;bene;pl;nominal;greater_plurality/accumulation;1;1
 bersaglio su bersaglio;su;bersaglio;sg;nominal;greater_plurality/accumulation;1;1
-bianco su bianco;su;bianco;sg;modifier;juxtaposition/contact;5;4
-bianco su bianco;su;bianco;sg;modifier;not postulated;0;1
-bianco su bianco;su;bianco;sg;nominal;greater_plurality/accumulation;1;1
+bianco su bianco;su;bianco;sg;modifier;juxtaposition/contact;5;5
+bianco su bianco;su;bianco;sg;modifier;idiosyncratic;0;1
+bianco su bianco;su;bianco;sg;nominal;greater_plurality/accumulation;1;0
 bicchiere su bicchiere;su;bicchiere;sg;modifier;succession/iteration/distributivity;1;1
 bisogni su bisogni;su;bisogno;pl;nominal;greater_plurality/accumulation;1;1
 bit a bit;a;bit;sg;modifier;succession/iteration/distributivity;5;3
@@ -341,8 +341,7 @@ saponi su saponi;su;sapone;pl;nominal;greater_plurality/accumulation;1;1
 sassolino su sassolino;su;sassolino;sg;modifier;succession/iteration/distributivity;1;1
 sbagli su sbagli;su;sbaglio;pl;nominal;greater_plurality/accumulation;1;1
 sbandate su sbandate;su;sbandata;pl;nominal;greater_plurality/accumulation;1;1
-scaglia a scaglia;a;scaglia;sg;modifier;succession/iteration/distributivity;2;0
-scaglia a scaglia;a;scaglia;sg;nominal;succession/iteration/distributivity;0;2
+scaglia a scaglia;a;scaglia;sg;modifier;succession/iteration/distributivity;2;2
 scatole su scatole;su;scatola;pl;nominal;greater_plurality/accumulation;1;1
 scheda su scheda;su;scheda;sg;modifier;succession/iteration/distributivity;1;1
 schermo a schermo;a;schermo;sg;modifier;juxtaposition/contact;1;1
@@ -363,8 +362,7 @@ simmetria su simmetria;su;simmetria;sg;modifier;succession/iteration/distributiv
 sistemi su sistemi;su;sistema;pl;nominal;greater_plurality/accumulation;1;1
 soldi su soldi;su;soldi;pl;nominal;greater_plurality/accumulation;5;5
 soldino su soldino;su;soldino;sg;modifier;succession/iteration/distributivity;1;1
-sorso a sorso;a;sorso;sg;modifier;juxtaposition/contact;0;1
-sorso a sorso;a;sorso;sg;modifier;succession/iteration/distributivity;1;0
+sorso a sorso;a;sorso;sg;modifier;succession/iteration/distributivity;1;1
 spalla a spalla;a;spalla;sg;modifier;juxtaposition/contact;51;51
 spalle a spalle;a;spalla;pl;modifier;juxtaposition/contact;2;2
 spesa su spesa;su;spesa;sg;modifier;succession/iteration/distributivity;1;0
