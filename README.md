@@ -1,15 +1,16 @@
-# NPN dataset
+# The NPN dataset
 
 [![CC BY- 4.0][cc-by-shield]][cc-by]
 
-- [NPN dataset](#npn-dataset)
+- [The NPN dataset](#the-npn-dataset)
 	- [Dataset construction](#dataset-construction)
 		- [The structure of Masini (2024)](#the-structure-of-masini-2024)
 		- [From Masini (2024) to `NPN dataset`](#from-masini-2024-to-npn-dataset)
-	- [NPN dataset](#npn-dataset-1)
+	- [NPN dataset](#npn-dataset)
 		- [Repository](#repository)
 		- [Construction instances parameters](#construction-instances-parameters)
 		- [Distractor instances parameters](#distractor-instances-parameters)
+	- [Coder agreement](#coder-agreement)
 	- [How to cite](#how-to-cite)
 	- [References](#references)
 	- [Changelog](#changelog)
@@ -82,7 +83,7 @@ Data in the present repository is organized as follows:
 
 ### Construction instances parameters
 
-Construction dataset contains 3256 occurrences, each annotated with the following parameters:
+Construction dataset (`data/construction.csv`) contains 3256 occurrences, each annotated with the following parameters:
 
 - **NPN**: the NPN expression (type);
 - **preposition**: the preposition found in the NPN expression, with possible values `a`, `su`;
@@ -93,7 +94,7 @@ Construction dataset contains 3256 occurrences, each annotated with the followin
 
 ### Distractor instances parameters
 
-In addition to the dataset of actual occurrences of the NPN construction, a parallel dataset of distractors was created, defined as sequences sharing the same surface form as the construction but not instantiating it.
+In addition to the dataset of actual occurrences of the NPN construction, a parallel dataset of distractors (`data/distractor.csv`) was created, defined as sequences sharing the same surface form as the construction but not instantiating it.
 
 Distractor dataset contains 1751 occurrences, each  and annotated with the following parameters:
 
@@ -103,6 +104,10 @@ Distractor dataset contains 1751 occurrences, each  and annotated with the follo
 - **number_of_noun**: tthe number value of the noun that appears in the pattern, with possible values `singular` (1600 items), `plural`(1750 items), `singular/plural` (8 items), `X` (108 items);
 - **type of distractor**: pattern, with possible values `N_extended` (35 items), `NsuNgiù` (392 items), `juxtaposition/contact` (13 items), `NumPNum` (100 items), `PNPN` (1442 items), `proper_name_inglobation` (31 items), `thematic_target` (50 items), `verbal` (80 items):
 - **proper_cxn**: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes` (1535 items), `no` (216 items)
+
+## Coder agreement
+
+
 
 ## How to cite
 
