@@ -60,6 +60,7 @@ Hence, both construction and non-constructions (henceforth, `distractors`) insta
 
 ### Repository
 
+<pre>
 The present repository is organized as follows:
 
 data/
@@ -71,6 +72,7 @@ data/
 │
 ├── dataset_Masini.csv
 └── dataset_freq.csv
+</pre>
 
 
 ### Construction instances parameters:
