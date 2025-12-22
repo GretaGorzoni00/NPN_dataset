@@ -10,6 +10,7 @@
 		- [Repository](#repository)
 		- [Construction instances parameters](#construction-instances-parameters)
 		- [Distractor instances parameters](#distractor-instances-parameters)
+	- [How to cite](#how-to-cite)
 	- [References](#references)
 	- [Changelog](#changelog)
 
@@ -102,6 +103,21 @@ Distractor dataset contains 1751 occurrences, each  and annotated with the follo
 - **number_of_noun**: tthe number value of the noun that appears in the pattern, with possible values `singular` (1600 items), `plural`(1750 items), `singular/plural` (8 items), `X` (108 items);
 - **type of distractor**: pattern, with possible values `N_extended` (35 items), `NsuNgiù` (392 items), `juxtaposition/contact` (13 items), `NumPNum` (100 items), `PNPN` (1442 items), `proper_name_inglobation` (31 items), `thematic_target` (50 items), `verbal` (80 items):
 - **proper_cxn**: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes` (1535 items), `no` (216 items)
+
+## How to cite
+
+If you use this data in your work please cite
+> Gorzoni, G., Masini, F., & Pannitto, L. (2025). NPN_dataset (Version 1.0.0) [Data set]. https://github.com/GretaGorzoni00/NPN_dataset
+
+```
+@misc{Gorzoni_NPN_dataset_2025,
+author = {Gorzoni, Greta and Masini, Francesca and Pannitto, Ludovica},
+month = dec,
+title = {{NPN\_dataset}},
+url = {https://github.com/GretaGorzoni00/NPN_dataset},
+year = {2025}
+}
+```
 
 ## References
 
