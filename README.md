@@ -60,9 +60,9 @@ Hence, both construction and non-constructions (henceforth, `distractors`) insta
 
 ### Repository
 
-<pre>
 The present repository is organized as follows:
 
+<pre>
 data/
 ├── construction.csv
 ├── distractor.csv
@@ -83,7 +83,7 @@ Constraction dataset contains 3256 occurrences, each  and annotated with the fol
 - noun: the lemmatised form of the noun that appears in the NPN expression;
 - number_of_noun: tthe number value of the noun that appears in the NPN expression, with possible values `singular` (2890 token), `plural` (346 token), `singular/plural` (20 token);
 - syntactic_function: the syntactic function of the NPN expression, with possible values `modifier` (2089 token), `nominal` (1166 token), `clause` (1);
-- meaning: the semantic function of the NPN expression with possible values `succession/iteration/distributivity` (577 token), `greater_plurality/accumulation` (392 token), `juxtaposition/contact` (1144 token), `connection/transition` (50 token), `inescapable_presupposition` (1 token), intensification (1 token) `idiosyncratic` (1091 token);
+- meaning: the semantic function of the NPN expression, with possible values `succession/iteration/distributivity` (577 token), `greater_plurality/accumulation` (392 token), `juxtaposition/contact` (1144 token), `connection/transition` (50 token), `inescapable_presupposition` (1 token), intensification (1 token) `idiosyncratic` (1091 token)
 
 ### Distractor instances parameters:
 
@@ -91,11 +91,11 @@ In addition to the dataset of actual occurrences of the NPN construction, a para
 
 Distractor dataset contains 1751 occurrences, each  and annotated with the following parameters:
 - NPN: surface of the distractor pattern shared with NPN construction;
-- preposition: the preposition found in the pattern, with possible values `a`, `su`;
+- preposition: the preposition found in the pattern, with possible values `a` (1565 token), `su` (186 token);
 - noun: the lemmatised form of the noun that appers reduplicated in the pattern;
-- number_of_noun: tthe number value of the noun that appears in the pattern, with possible values `singular`, `plural`, `singular/plural`;
-- Type of distractor pattern (7 possible values)
-- Other_cxv: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes`, `no`
+- number_of_noun: tthe number value of the noun that appears in the pattern, with possible values `singular` (1600 token), `plural`(1750 token), `singular/plural` (8 token), `X` (108 token);
+- Type of distractor pattern, with possible values `N_extended` (35 token), `NsuNgiù` (392 token), `juxtaposition/contact` (13 token), `NumPNum` (100 token), `PNPN` (1442 token), `proper_name_inglobation` (31 token), `thematic_target` (50 token), `verbal` (80 token):
+- Other_cxv: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes` (1535 token), `no` (216 token)
 
 
 ## References
