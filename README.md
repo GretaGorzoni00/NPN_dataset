@@ -61,16 +61,16 @@ Hence, both construction and non-constructions (henceforth, `distractors`) insta
 ### Repository
 
 The present repository is organized as follows:
+
 data/
- ├─ construction.csv
- ├─ distractor.csv
- │ 
- ├─agreements/
- |
- ├─dataset_Masini.csv
- ├─dataset_freq.csv
- |
- └─ license.txt
+├── construction.csv
+├── distractor.csv
+│
+├── agreements/
+│   └── license.txt
+│
+├── dataset_Masini.csv
+└── dataset_freq.csv
 
 
 ### Construction instances parameters:
