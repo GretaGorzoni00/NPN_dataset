@@ -44,7 +44,7 @@ Main differences in frequency between the present dataset and Masini (2024), whe
 The differences in frequencies between Masini (2024) and the present dataset are underlined in `dataset_freq.csv`.
 
 The exclusion criteria reported by (Masinini, 2024) were initially followed:
-- foreign expression (e.g., `Italia su Italia`)
+- foreign expression (e.g., `vis a vis`)
 - instances containing proper nouns (e.g., `Italia su Italia`)
 - occurrences that actually belong to another construction (e.g., `PNPN`)
 
