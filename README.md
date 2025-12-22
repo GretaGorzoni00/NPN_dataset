@@ -1,16 +1,95 @@
-# NPN_dataset
+# NPN dataset
 
-The present dataset is build on xxxxxxxx, the result of an empirical analysis that surveys all occurrences of the construction pattern NPN found in CORIS: a large-scale reference corpus of contemporary written Italian developed at the University of Bologna. CORIS (Corpus di Riferimento per l’Italiano Scritto) was designed as a representative corpus of authentic written Italian texts, selected to reflect variety across genres such as press, narrative, academic prose and administrative language, and annotated with part-of-speech and lemma information to support corpus-based linguistic analysis. The corpus is periodically updated through a monitor component, which incorporates new texts to capture ongoing changes in language use.
+[![CC BY- 4.0][cc-by-shield]][cc-by]
+
+- [NPN dataset](#npn-dataset)
+	- [Dataset construction](#dataset-construction)
+		- [The structure of Masini (2024)](#the-structure-of-masini-2024)
+		- [From Masini (2024) to `NPN dataset`](#from-masini-2024-to-npn-dataset)
+	- [NPN dataset](#npn-dataset-1)
+		- [Repository](#repository)
+		- [Construction instances parameters:](#construction-instances-parameters)
+		- [Distractor instances parameters:](#distractor-instances-parameters)
+	- [References](#references)
+
+
+The present dataset collects instances of the Italian Noun-Preposition-Noun (NPN) discontinuous reduplication construction (e.g., `pagine su pagine`, *pages upon pages*). The istances come from the CORIS corpus, 2021 version, 165Mw ([https://corpora.ficlit.unibo.it/TCORIS/](https://corpora.ficlit.unibo.it/TCORIS/)).
+
+## Dataset construction
+
+Data is built upon Masini (2024), the result of an empirical analysis that surveys all occurrences of the construction pattern NPN found in [CORIS](https://corpora.ficlit.unibo.it/TCORIS/): a large-scale reference corpus of contemporary written Italian developed at the University of Bologna.
+
+### The structure of Masini (2024)
+
+Masini (2024) contains 1298 construction types, each annotated with the following paramenters:
+- NPN: the NPN expression (type);
+- token_frequency: the token frequency of the NPN expression in the CORIS 2021 corpus;
+- preposition: the preposition found in the NPN expression (12 possible values);
+- reduplicated_noun: the lemmatised form of the noun that appears in the NPN expression;
+- number_of_noun: he number value of the noun that appears in the NPN expression, with possible values `singular`, `plural`, `singular/plural`;
+- syntactic_function: the syntactic function of the NPN expression, with possible values `modifier`, `nominal`, `clause`;
+- meaning: the semantic function of the NPN expression;
+
+The original data taken as a starting point for this work is contained in file `dataset_Masini.csv`.
+
+### From Masini (2024) to `NPN dataset`
+
+For the present dataset, we only considered a subset of the original data, namely constructions instantiated by prepositions **su** and **a**.
+Each construction form in this subset was manually searched in CORIS in order to retrieve the occurrence within its sentential boundaries.
+Hence, both construction and non-constructions (henceforth, `distractors`) instances were annotated with categories listed in section [NPN dataset](#npn-dataset-1).
+
+With respect to the original dataset, we removed:
+- instances containing proper nouns (e.g., `Italia su Italia`)
+- fixed expressions (e.g., `poco a poco`)
+- dialectal expressions (e.g., `core a core`)
+
+
+## NPN dataset
+
+### Repository
+
+The present repository is organized as follows:
+- `data/` folder:
+- `agreemens/` folder:
+- `dataset_Masini.csv`:
+- `NPN_dataset.csv`:
+
+### Construction instances parameters:
+
+### Distractor instances parameters:
+
+
+
+
 
 The differences in frequencies between xxxxxxx and the present dataset are underline in yyyyyyyyy.
 
-For the present dataset, each form was manually searched in CORIS in order to visualize the occurrence within its sentential boundaries. This procedure revealed a number of instances that cannot be identified through a CQL query of the form NN–PREP–NN, since automatic POS tagging occasionally fails to assign the NN tag to nouns that function as such, instead labelling them as verbs (VERB). Main differences in frequency between the present dataset and xxxxxxxxxxx, where they occur, can therefore be attributed to this issue. Other mismatch come from the decision for the present dataset to exclude some occurrences, the main reasons are: duplication of sentences in the corpus, nominal phrase with no significat context. Some occurrenes not present in xxxxx, but istancies of the contruction pattern NPN
+
 
 The present dataset explores NPN occurrences attested in Monitor CORIS 2020 by collecting and reporting each instance within its specific sentential context.
 
 The label in the dataset can express the following values:
 
-
-
-
 DISTRATTORI
+
+
+This procedure revealed a number of instances that cannot be identified through a CQL query of the form NN–PREP–NN, since automatic POS tagging occasionally fails to assign the NN tag to nouns that function as such, instead labelling them as verbs (VERB).
+
+Main differences in frequency between the present dataset and xxxxxxxxxxx, where they occur, can therefore be attributed to this issue. Other mismatch come from the decision for the present dataset to exclude some occurrences, the main reasons are: duplication of sentences in the corpus, nominal phrase with no significat context. Some occurrenes not present in xxxxx, but istancies of the contruction pattern NPN
+
+
+## References
+
+- Masini, Francesca (2024) NPN discontinuous reduplications in Italian: dataset. Univesity of Bologna. DOI [10.6092/unibo/amsacta/7489](https://doi.org/10.6092/unibo%2Famsacta%2F7489)
+
+
+-----
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by-nc-sa].
+
+<!-- [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa] -->
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
