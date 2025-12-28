@@ -112,8 +112,8 @@ Distractor dataset contains 1751 occurrences, each  and annotated with the follo
 Inter-annotator agreement was evaluated on a controlled subset of 100 instances. All annotators followed a shared annotation schema, including formal constraints and semantically motivated label definitions derived from the literature.
 
 The agreement subset was balanced across semantic categories:  
-– 50 instances annotated with the preposition *a* (25 `juxt`, 25 `succ`)  
-– 50 instances annotated with the preposition *su* (25 `succ`, 25 `acc`)
+– 50 instances from the subset of NPN constructions instanciated by the preposition  *a* (25 `juxt`, 25 `succ`)  
+– 50 instances from the subset of NPN constructions instanciated by the preposition  *su* (25 `succ`, 25 `acc`)
 
 **Inter-annotator agreement**  
 Annotation quality was assessed using Cohen’s κ and Krippendorff’s α. Pairwise Cohen’s κ shows consistently high observed agreement (Ao = 0.87–0.94), with stable expected agreement (Ae ≈ 0.36–0.37), resulting in strong to near-perfect reliability across annotator pairs (κ = 0.79–0.91).
