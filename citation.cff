@@ -4,12 +4,12 @@ type: dataset
 authors:
 - family-names: "Gorzoni"
   given-names: "Greta"
-- family-names: "Masini"
-  given-names: "Francesca"
-  orcid: "https://orcid.org/0000-0002-2354-4612"
 - family-names: "Pannitto"
   given-names: "Ludovica"
   orcid: "https://orcid.org/0000-0002-5760-6447"
+- family-names: "Masini"
+  given-names: "Francesca"
+  orcid: "https://orcid.org/0000-0002-2354-4612"
 title: "NPN_dataset"
 version: 1.0.0
 date-released: 2025-12-18
