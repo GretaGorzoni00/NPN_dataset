@@ -46,7 +46,7 @@ Main differences in frequency between the present dataset and Masini (2024), whe
 
 The differences in frequencies between Masini (2024) and the present dataset are underlined in `dataset_freq.csv`.
 
-The exclusion criteria reported by (Masinini, 2024) were initially followed:
+The exclusion criteria reported by (Masini, 2024) were initially followed:
 
 - foreign expression (e.g., `vis a vis`)
 - instances containing proper nouns (e.g., `Italia su Italia`)
@@ -88,7 +88,7 @@ Construction dataset (`data/construction.csv`) contains 3256 occurrences, each a
 - **NPN**: the NPN expression (type);
 - **preposition**: the preposition found in the NPN expression, with possible values `a`, `su`;
 - **noun**: the lemmatised form of the noun that appears in the NPN expression;
-- **number_of_noun**: tthe number value of the noun that appears in the NPN expression, with possible values `singular` (2890 items), `plural` (346 items), `singular/plural` (20 items);
+- **number_of_noun**: the number value of the noun that appears in the NPN expression, with possible values `singular` (2890 items), `plural` (346 items), `singular/plural` (20 items);
 - **syntactic_function**: the syntactic function of the NPN expression, with possible values `modifier` (2089 items), `nominal` (1166 items), `clause` (1 item);
 - **meaning**: the semantic function of the NPN expression, with possible values `succession/iteration/distributivity` (577 items), `greater_plurality/accumulation` (392 items), `juxtaposition/contact` (1144 items), `connection/transition` (50 items), `inescapable_presupposition` (1 item), intensification (1 items) `idiosyncratic` (1091 items)
 
@@ -101,8 +101,8 @@ Distractor dataset contains 1751 occurrences, each  and annotated with the follo
 - **NPN**: surface of the distractor pattern shared with NPN construction;
 - **preposition**: the preposition found in the pattern, with possible values `a` (1565 items), `su` (186 items);
 - **noun**: the lemmatised form of the noun that appers reduplicated in the pattern;
-- **number_of_noun**: tthe number value of the noun that appears in the pattern, with possible values `singular` (1600 items), `plural`(1750 items), `singular/plural` (8 items), `X` (108 items);
-- **type of distractor**: pattern, with possible values `N_extended` (35 items), `NsuNgiù` (392 items), `juxtaposition/contact` (13 items), `NumPNum` (100 items), `PNPN` (1442 items), `proper_name_inglobation` (31 items), `thematic_target` (50 items), `verbal` (80 items):
+- **number_of_noun**: the number value of the noun that appears in the pattern, with possible values `singular` (1600 items), `plural`(1750 items), `singular/plural` (8 items), `X` (108 items);
+- **type of distractor**: pattern, with possible values `N_extended` (35 items), `NsuNgiù` (392 items), `juxtaposition/contact` (13 items), `NumPNum` (100 items), `PNPN` (1442 items), `proper_name_inglobation` (31 items), `thematic_target` (50 items), `verbal` (80 items);
 - **proper_cxn**: whether this represents a structurally distinct construction construction different from the NPN linked horizontally or merely a surface-isomorphic pattern, with possible values `yes` (1535 items), `no` (216 items)
 
 ## Coder agreement
@@ -112,8 +112,8 @@ Distractor dataset contains 1751 occurrences, each  and annotated with the follo
 Inter-annotator agreement was evaluated on a controlled subset of 100 instances. All annotators followed a shared annotation schema, including formal constraints and semantically motivated label definitions derived from the literature.
 
 The agreement subset was balanced across semantic categories:  
-– 50 instances from the subset of NPN constructions instanciated by the preposition  *a* (25 `juxt`, 25 `succ`)  
-– 50 instances from the subset of NPN constructions instanciated by the preposition  *su* (25 `succ`, 25 `acc`)
+– 50 instances from the subset of NPN constructions instantiated by the preposition  *a* (25 `juxt`, 25 `succ`)  
+– 50 instances from the subset of NPN constructions instantiated by the preposition  *su* (25 `succ`, 25 `acc`)
 
 **Inter-annotator agreement**  
 Annotation quality was assessed using Cohen’s κ and Krippendorff’s α. Pairwise Cohen’s κ shows consistently high observed agreement (Ao = 0.87–0.94), with stable expected agreement (Ae ≈ 0.36–0.37), resulting in strong to near-perfect reliability across annotator pairs (κ = 0.79–0.91).
@@ -128,7 +128,7 @@ If you use this data in your work please cite
 
 ```
 @misc{Gorzoni_NPN_dataset_2025,
-author = {Gorzoni, Greta and Masini, Francesca and Pannitto, Ludovica},
+author = {Gorzoni, Greta and Pannitto, Ludovica and Masini, Francesca},
 month = dec,
 title = {{NPN\_dataset}},
 url = {https://github.com/GretaGorzoni00/NPN_dataset},
