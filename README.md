@@ -1,5 +1,7 @@
 # The NPN dataset
 
+[![DOI](https://zenodo.org/badge/1118878500.svg)](https://doi.org/10.5281/zenodo.18268134)
+
 [![CC BY- 4.0][cc-by-shield]][cc-by]
 
 - [The NPN dataset](#the-npn-dataset)
@@ -128,11 +130,13 @@ If you use this data in your work please cite
 
 ```
 @misc{Gorzoni_NPN_dataset_2025,
-author = {Gorzoni, Greta and Pannitto, Ludovica and Masini, Francesca},
-month = dec,
-title = {{NPN\_dataset}},
-url = {https://github.com/GretaGorzoni00/NPN_dataset},
-year = {2025}
+  author       = {Gorzoni, Greta and Pannitto, Ludovica and Masini, Francesca},
+  title        = {{NPN Dataset}},
+  year         = {2026},
+  month        = gen,
+  doi          = {10.5281/zenodo.18268134},
+  url          = {https://github.com/GretaGorzoni00/NPN_dataset},
+  howpublished = {Zenodo},
 }
 ```
 
@@ -143,7 +147,7 @@ year = {2025}
 
 ## Changelog
 
-* 2025-12-22:
+* 2026-01-15:
   * first release
 
 -----
