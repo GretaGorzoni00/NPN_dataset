@@ -12,5 +12,8 @@ authors:
   orcid: "https://orcid.org/0000-0002-2354-4612"
 title: "NPN_dataset"
 version: 1.0.0
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.18268134
 date-released: 2025-12-18
 url: "https://github.com/GretaGorzoni00/NPN_dataset"
