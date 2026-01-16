@@ -1,6 +1,6 @@
 # The NPN dataset
 
-[![DOI](https://zenodo.org/badge/1118878500.svg)](https://doi.org/10.5281/zenodo.18268134)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18268134.svg)](https://doi.org/10.5281/zenodo.18268134)
 
 [![CC BY- 4.0][cc-by-shield]][cc-by]
 
