@@ -139,6 +139,7 @@ year = {2025}
 ## References
 
 - Masini, Francesca (2024) NPN discontinuous reduplications in Italian: dataset. Univesity of Bologna. DOI [10.6092/unibo/amsacta/7489](https://doi.org/10.6092/unibo%2Famsacta%2F7489)
+- [CORIS 2021, a 165Mw reference corpus of contemporary written Italian](https://corpora.ficlit.unibo.it/TCORIS/)
 
 ## Changelog
 
