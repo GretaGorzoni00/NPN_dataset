@@ -1,12 +1,5 @@
 # The NPN dataset
 
-This repository is associated with the following dataset published on Zenodo:
-
-**Title:** *NPN Construction and Distractor dataset*  
-**Authors:** Greta Gorzoni, Ludovica Pannitto, Francesca Masini  
-**Year:** 2025  
-**DOI:** https://doi.org/10.5281/zenodo.18268135
-
 [![DOI](https://zenodo.org/badge/1118878500.svg)](https://doi.org/10.5281/zenodo.18268135)
 
 [![CC BY- 4.0][cc-by-shield]][cc-by]
