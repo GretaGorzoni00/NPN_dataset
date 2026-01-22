@@ -1,19 +1,13 @@
-cff-version: 1.2.0
-message: "If you use this data, please cite it as below."
+cff-version: 1.0
+title: "NPN Construction and Distractor dataset"
+message: "If you use this dataset, please cite it as below."
 type: dataset
 authors:
-  - family-names: "Gorzoni"
-    given-names: "Greta"
-  - family-names: "Pannitto"
-    given-names: "Ludovica"
-    orcid: "https://orcid.org/0000-0002-5760-6447"
-  - family-names: "Masini"
-    given-names: "Francesca"
-    orcid: "https://orcid.org/0000-0002-2354-4612"
-title: "NPN_dataset"
-version: 1.0.0
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.18268134"
-date-released: 2025-12-18
-url: "https://github.com/GretaGorzoni00/NPN_dataset"
+  - family-names: Gorzoni
+    given-names: Greta
+  - family-names: Pannitto
+    given-names: Ludovica
+  - family-names: Masini
+    given-names: Francesca
+doi: 10.5281/zenodo.18268135
+year: 2025
