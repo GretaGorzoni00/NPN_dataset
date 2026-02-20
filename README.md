@@ -154,6 +154,8 @@ If you use this data in your work please cite
 
 ## Changelog
 
+* 2026-02-20:
+  * minor change to distractor item, v1.0.1 released
 * 2026-01-15:
   * first release
 
